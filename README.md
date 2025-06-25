@@ -1,6 +1,9 @@
 # Tech-Swift Task Manager
 
-[![Deployed on GitHub Pages](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-blue?logo=github)](https://plp-mern-stack-development.github.io/week-3-react-js-assignment-Tech-Swift/)
+## Deployed Link
+
+The app is live on GitHub Pages:
+https://plp-mern-stack-development.github.io/week-3-react-js-assignment-Tech-Swift/
 
 A modern, vibrant, and responsive task management app built with **React**, **Vite**, and **Tailwind CSS**.
 
