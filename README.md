@@ -75,8 +75,8 @@ You can deploy this app for free using:
 - See [Week3-Assignment.md](./Week3-Assignment.md) for the original instructions
 
 ## 👤 Author
-- [Your Name]
-- [Your GitHub Profile]
+- Tech Swift
+- [Ticha23](https://github.com/Ticha23)
 
 ---
 
