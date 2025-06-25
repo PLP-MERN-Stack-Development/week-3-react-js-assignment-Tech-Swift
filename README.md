@@ -1,71 +1,83 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19838919&assignment_repo_type=AssignmentRepo)
-# React.js and Tailwind CSS Assignment
+# Tech-Swift Task Manager
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+A modern, vibrant, and responsive task management app built with **React**, **Vite**, and **Tailwind CSS**.
 
-## Assignment Overview
+## 🚀 Features
+- Add, complete, delete, and filter tasks
+- Tasks persist in your browser (localStorage)
+- Latest tasks appear at the top; completed tasks are pushed to the bottom
+- Light/Dark mode with a theme switcher
+- Reusable UI components (Button, Card, Navbar, Footer, Layout)
+- API integration (fetch, search, paginate public data)
+- Responsive design for mobile, tablet, and desktop
+- Beautiful, animated UI with Tailwind CSS
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+## 📸 Screenshots
 
-## Getting Started
+| Home (Light) | Home (Dark) |
+|:---:|:---:|
+| ![Home Light](./screenshots/HomeLight.png) | ![Home Dark](./screenshots/HomeDark.png) |
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
+| Task Added | About (Dark) |
+|:---:|:---:|
+| ![Task Added](./screenshots/TaskAdded.png) | ![About Dark](./screenshots/AboutDark.png) |
+
+## 🛠️ Tech Stack
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router](https://reactrouter.com/)
+
+## 📦 Getting Started
+
+### Prerequisites
+- Node.js v18 or higher
+- pnpm (recommended) or npm
+
+### Setup
+1. **Clone the repository:**
+   ```sh
+   git clone <your-repo-url>
+   cd week-3-react-js-assignment-Tech-Swift
    ```
+2. **Install dependencies:**
+   ```sh
+   pnpm install
+   # or
    npm install
    ```
-4. Start the development server:
-   ```
+3. **Start the development server:**
+   ```sh
+   pnpm run dev
+   # or
    npm run dev
    ```
+4. **Open your browser:**
+   Visit the local address shown in the terminal (e.g., http://localhost:5173)
 
-## Files Included
+## 📝 Usage
+- **Add a task:** Type in the input and click "Add Task"
+- **Complete a task:** Click the checkbox next to a task
+- **Delete a task:** Click the "Delete" button
+- **Filter tasks:** Use the filter buttons (All, Active, Completed)
+- **Switch theme:** Use the ☀️/🌙 button in the Navbar
+- **API Demo:** Visit the API integration page (if available) to see public data fetching, search, and pagination
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+## 🌐 Deployment
+You can deploy this app for free using:
+- [Vercel](https://vercel.com/)
+- [Netlify](https://www.netlify.com/)
+- [GitHub Pages](https://pages.github.com/)
 
-## Requirements
+## 📄 Assignment Notes
+- All requirements from the assignment have been implemented
+- Code is clean, modular, and follows React best practices
+- See [Week3-Assignment.md](./Week3-Assignment.md) for the original instructions
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+## 👤 Author
+- [Your Name]
+- [Your GitHub Profile]
 
-## Project Structure
+---
 
-```
-src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
-
-## Submission
-
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
-
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
-
-## Resources
-
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+Feel free to open issues or submit pull requests for improvements!
